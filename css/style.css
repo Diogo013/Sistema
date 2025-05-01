@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #C4B58C;
+}
+
+.btn{
+    background-color: #1A7373;
+    border-color: #1A7373;
+}
+
+.btn:hover{
+    background-color: #A6A1A3;
+    border-color: #A6A1A3;
+}
+
+.navbar{
+    background-color: #1A7373;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+
+.dropdown{
+    background-color: transparent;
+}
+
+.container-card{
+    flex-direction: column;
+    gap: 50px;
+ }
+
+ .card{
+    background-color: #929e77;
+    border-radius: 21px;
+    border: none;
+    flex-direction: column;
+ }
+
+ .card-header{
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+    padding: 10px 0 0 10px;
+ }
+
+ .card-body{
+   padding: 0 0 0 10px;
+   justify-content: center;
+   
+ }
+
+ .titulo{
+    color: #dde1c8;
+ }
+
+
+ .container-img{
+   background-color: #dde1c8;
+   height: 15rem;
+   width: 25rem;
+   border-radius: 11px;
+   margin-bottom: 20px;
+ }
+
+ .img-consulta{
+height: 15rem;
+   width: 25rem;
+   border-radius: 11px;
+   margin-bottom: 20px;
+ }

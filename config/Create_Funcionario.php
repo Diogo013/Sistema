@@ -1,0 +1,33 @@
+<?php 
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "Sistema_StTeresinha";
+try 
+{
+    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    $sql = "CREATE table funcionarios(codigo int PRIMARY KEY AUTO_INCREMENT,
+                                nome varchar(100) not null,
+                                nascimento varchar(10) not null,
+                                cpf varchar(20) not null,
+                                rg varchar(20) not null,
+                                cep varchar(20) not null,
+                                naturalidade varchar(20) not null, 
+                                escolaridade varchar(20) not null, 
+                                numero varchar(10) not null,
+                                celular varchar(20) not null,
+                               email varchar(40) not null)";
+                                
+
+    $conn->exec($sql);
+
+    echo"Criado com sucesso";
+}
+catch(PDOException $e)
+{
+    echo"Falha na conexão. Erro : " . $e->getMessage();
+}
+$conn = null;
+?>

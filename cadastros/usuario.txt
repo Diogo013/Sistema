@@ -1,0 +1,2 @@
+Junin,lala@gmail.com,2011-11-11,336.511.698-20,11720120,...,Praia Grande,SP,13997034377,funcionario,e8d95a51f3af4a3b134bf6bb680a213a,11111111111,
+Fernado,fer@gmail.com,1987-05-11,336.511.698-20,11720120,...,Praia Grande,SP,13997034377,gerente,d10906c3dac1172d4f60bd41f224ae75,12344
