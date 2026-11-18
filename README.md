@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/License-MIT-green.badge?style=for-the-badge" alt="License">
 </p>
 
 Sistema web desenvolvido em **PHP** com persistência em banco de dados **MySQL**, criado com o objetivo de gerenciar dados, automatizar processos e aplicar boas práticas de desenvolvimento web.
